@@ -1,0 +1,7 @@
+        /** classVar1 documentation comment */
+        public static int classVar1;
+
+        /**
+         * classVar2 documentation comment that happens to be
+         * more than one line long
+         */
