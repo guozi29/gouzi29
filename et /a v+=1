@@ -1,0 +1,4 @@
+set /a m+=1,x+=1
+if %m% geq 20 set /a v+=1
+set str%m%=%str%
+cls&for /l %%i in (%m%,-1,%v%) do echo.!str%%i!
