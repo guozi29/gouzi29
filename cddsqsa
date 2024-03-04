@@ -1,0 +1,5 @@
+            # 停止发放补给
+            pygame.time.set_timer(SUPPLY_TIME, 0)
+ 
+            if not recorded:
+                recorded = True
