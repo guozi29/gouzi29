@@ -1,0 +1,6 @@
+               with open("record.txt", "r") as f:
+                    record_score = int(f.read())
+             
+                if score > record_score:
+                    with open("record.txt", "w") as f:
+                        f.write(str(score))
