@@ -1,0 +1,9 @@
+        while (true) {
+            flash = !flash;
+            p.repaint();
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+            }
+            f.addKeyListener(this);
+        }
