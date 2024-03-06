@@ -1,0 +1,5 @@
+                enemyTank = new Tank(enemyBorns.get(temp).getX(), enemyBorns
+                        .get(temp).getY(), false, allTanks, walls, irons,
+                        golds, missles, home, booms, r.nextInt(3) + 1);
+            } catch (Exception e) {
+                e.printStackTrace();
